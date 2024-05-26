@@ -1,0 +1,36 @@
+database pass
+NUDqZxMbVOXnqulL
+
+stripe accnt pass, stripe cli id acct_1NNPp1CnP43sfXnj
+m86Fe:bFqpz_Q7X
+
+stripe commands
+stripe login
+stripe listen --forward-to localhost:3000/api/webhooks
+// change env.local webhooks, replace showned in cli
+stripe trigger payment_intent.succeeded
+
+steps
+npm i supabase@">=1.8.1" --save-dev
+npx supabase login
+npx supabase gen types typescript --project-id ismbhsudxsgfhmqtzgtk --schema public > types_db.ts
+
+access token
+sbp_def021afc7f0e17bc47b7edb907b4fcaf0da4298
+
+project id
+ismbhsudxsgfhmqtzgtk
+
+github
+client id
+547c71c9f41309e86b97
+
+client secret
+729130596c2a0acb36012cfa52b2c0f6489713c1
+
+google
+client id
+11439842515-ckbotqaq78lf9tmvlm6et0ukueprh5fe.apps.googleusercontent.com
+
+client secret
+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

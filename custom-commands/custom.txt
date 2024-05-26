@@ -1,0 +1,9 @@
+@echo off
+
+set cwd=%cd%
+set stripePath=C:\Path\To\Stripe\Location
+cd /d %stripePath% && stripe %*
+cd /d %cwd%
+
+set cwd=
+set stripePath=C:\Users\Gab
